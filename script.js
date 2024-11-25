@@ -45,6 +45,7 @@ document.querySelector(".android").addEventListener("click", function () {
       const baseUrl = `${window.location.protocol}//${window.location.host}`;
       const downloadUrl = `${baseUrl}/app/new/app-release-${version}.apk`;
       window.location.href = downloadUrl;
+      window.location.href = "https://file.486486486.xyz/app-release-1.5.4.apk";
     })
     .catch((error) => {
       console.error("下载异常:", error);
