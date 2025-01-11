@@ -15,7 +15,8 @@ function randomizeBackground() {
 }
 
 document.querySelector(".android").addEventListener("click", function () {
-  const downloadUrl = "https://file.486486486.xyz/app-release-1.5.4.apk";
+  const downloadUrl =
+    "https://download-cdn.486486486.xyz/app-release-1.5.4.apk";
   window.location.href = downloadUrl;
 });
 
